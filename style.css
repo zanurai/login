@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.label {
+    /*border: 1px solid black;*/
+    height: 450px;
+    width: 500px;
+    margin-top: 5%;
+    background-color: white;
+    margin-left: 20%;
+}
+
+.label h1 {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Email {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.Email p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Email input {
+    width: 400px;
+    height: 35px;
+
+}
+
+
+.password {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.password p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.password input {
+    width: 400px;
+    height: 35px;
+
+}
+
+.btn {
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(25, 25, 243);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(35, 74, 180);
+}
+
+#email_error {
+    color: red;
+    margin-top: 2px;
+    font-size: 18px;
+    background-color: rgb(236, 186, 186);
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    display: none;
+
+}
+
+#password_error {
+    color: red;
+    margin-top: 2px;
+    font-size: 18px;
+    background-color: rgb(236, 186, 186);
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+
+a {
+    display: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="label">
+            <h1>User Login</h1>
+            <form method="post" name="form" action="log.html" onsubmit="return validation()">
+
+                <div class="Email">
+                    <p>Email or Phone</p>
+                    <input autocomplete="off" type="text" name="email"></input>
+                    <div id="email_error">Please fill up your Email or phone</div>
+                </div>
+                <div class="password">
+                    <p>Password</p>
+                    <input type="password" name="pass"></input>
+                    <div id="password_error">Please fill up your password</div>
+                </div>
+
+                <button class="btn">Login</button>
+            </form>
+
+        </div>
+        <a href="log.html">login</a>
+
+    </div>
+
+
+
+
+
+    <script src="myscript.js"></script>
+</body>
+
+</html>
